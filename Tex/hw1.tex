@@ -1,0 +1,86 @@
+\documentclass[12pt,letterpaper,cm]{hmcpset}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+
+% info for header block in upper right hand corner
+\name{}
+\class{Math 70}
+\assignment{Hw 01}
+\duedate{February 4, 2018}
+\setlength\parindent{0pt}
+
+\newcommand\Z{\mathbb{Z}}
+
+\begin{document}
+
+\problemlist{A1,A2,A3,A4,A5}
+
+\begin{problem}[A1]
+    \begin{enumerate}
+        \item Find permutations $p,q$ in $S_3$ such that $p\cdot q \neq q\cdot p$
+        \item Prove that if $n\geq 3$ then there exists $p,q \in S_n$ such that $p\cdot q \neq q\cdot p$
+        \item Let $a,b\in J_n$ with $a\neq b$. Prove that $(a,b) = (b,a)$
+        \item Prove that $(a,b)(a,b) = e$. Here $e$ denotes the identity in $S_n$
+        \item Compute $(a,b,c)\cdot(a,b,c)\cdot(a,b,c)$.
+    \end{enumerate}
+ \end{problem}
+
+\begin{solution}
+    
+\end{solution}
+
+\pagebreak
+%-----------------------------------------------------------------------------------------------------------------------%
+
+\begin{problem}[A2]
+    \begin{enumerate}
+        \item Let $i<j$ with $i,j\in J_n$. Prove that the permutations $(i,i+3)$ may be written as
+        \begin{center}
+            $(i,i+1)\cdot(i+1,i+2)\cdot(i+2,i+3)\cdot(i+2,i+1)\cdot(i+1,i)$.\\
+        \end{center}
+        Hint: Consider $x<i$, $i\leq x \leq j$ and $x>j$.
+        \item Prove that if $c_i$ and $c_2$ are disjoint cycles then $c_1\cdot c_2 = c_2 \cdot c_1$
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+
+\end{solution}
+
+\pagebreak
+%-----------------------------------------------------------------------------------------------------------------------%
+
+\begin{problem}[A3]
+    Prove that if $A=(a_{ij})$ is an $n \times n$ triangular matric (either $a_{ij} = 0$ for all $i<j$ or $a_{ij}=0$ for all $i>j$), then $det(A) = a_{11}\cdot a_{22} \cdots a_{nn}$.
+\end{problem}
+
+\begin{solution}
+    
+\end{solution}
+
+\pagebreak
+%-----------------------------------------------------------------------------------------------------------------------%
+
+\begin{problem}[A4]
+    \begin{enumerate}
+        \item Let $A,B,C$ be $2\times 2$ matrices. Let X be the $4\times 4$ matrix whose first two rows are $[A\ B]$ and its last two rows are $[0\ C]$, where 0 stands for the $2\times 2$ matrix whose entries are the all equal to zero. Prove that $det(X) = det(A)det(C)$.
+        \item Generalize this result for $2n \times 2n$ matrices.
+    \end{enumerate}
+\end{problem}
+\begin{solution}
+
+\end{solution}
+\pagebreak
+%-----------------------------------------------------------------------------------------------------------------------%
+
+\begin{problem}[A5]
+    For each $i,j\in J_n$ let $a_{ij}(x)$ be a differentiable functions of x. Let $A(x) = (a_{ij}(x))$. Prove that $(det(A(x)))' = \summation_{i=1}^n det(B_i(x))$ where $B_i(x)$ is the matrix resulting from the replacing in $A(x)$ the i-th column by the column made up by the derivatives of the i-th column of $A(x)$. 
+\end{problem}
+
+\begin{solution}
+    
+\end{solution}
+
+\end{document}
