@@ -5,7 +5,7 @@
 \usepackage{enumerate}
 
 % info for header block in upper right hand corner
-\name{}
+\name{Gary Luo}
 \class{Math 70}
 \assignment{Hw 01}
 \duedate{February 4, 2018}
@@ -28,7 +28,10 @@
  \end{problem}
 
 \begin{solution}
-    
+    \begin{enumerate}
+        \item Let $p=(1,2,3)$ and $q=(1,3)$. Then, we see that $p\cdot q = (1,2,3)$ and $q\cdot p = (1,2)$. Clearly, these are not the same.
+        \item We will prove this by induction. For our base case, we will look at part 1 and see that it holds true for $n=3$. Next, 
+    \end{enumerate}
 \end{solution}
 
 \pagebreak
@@ -36,11 +39,11 @@
 
 \begin{problem}[A2]
     \begin{enumerate}
-        \item Let $i<j$ with $i,j\in J_n$. Prove that the permutations $(i,i+3)$ may be written as
+        \item Let $i\in J_n$. Prove that the permutations $(i,i+3)$ may be written as
         \begin{center}
             $(i,i+1)\cdot(i+1,i+2)\cdot(i+2,i+3)\cdot(i+2,i+1)\cdot(i+1,i)$.\\
         \end{center}
-        Hint: Consider $x<i$, $i\leq x \leq j$ and $x>j$.
+        Hint: Consider $x<i$, $i\leq x \leq i+3$ and $x>i+3$.
         \item Prove that if $c_i$ and $c_2$ are disjoint cycles then $c_1\cdot c_2 = c_2 \cdot c_1$
     \end{enumerate}
 \end{problem}
@@ -53,7 +56,7 @@
 %-----------------------------------------------------------------------------------------------------------------------%
 
 \begin{problem}[A3]
-    Prove that if $A=(a_{ij})$ is an $n \times n$ triangular matric (either $a_{ij} = 0$ for all $i<j$ or $a_{ij}=0$ for all $i>j$), then $det(A) = a_{11}\cdot a_{22} \cdots a_{nn}$.
+    Prove that if $A=(a_{ij})$ is an $n \times n$ triangular matrix (either $a_{ij} = 0$ for all $i<j$ or $a_{ij}=0$ for all $i>j$), then $det(A) = a_{11}\cdot a_{22} \cdots a_{nn}$.
 \end{problem}
 
 \begin{solution}
