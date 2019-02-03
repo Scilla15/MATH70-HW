@@ -1,0 +1,95 @@
+\documentclass[12pt,letterpaper,cm]{hmcpset}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+
+% info for header block in upper right hand corner
+\name{}
+\class{Math 70}
+\assignment{Hw 02}
+\duedate{February 8, 2018}
+\setlength\parindent{0pt}
+
+\newcommand\Z{\mathbb{Z}}
+
+\begin{document}
+
+\problemlist{B1,B2,B3,B4,B5}
+
+\begin{problem}[B1]
+    \begin{enumerate}[a)]
+        \item Let $n\geq 3$ and $j\in J_n$. Find a one-to-one and onto function $f:S_{n-1} \rightarrow \{p\in S_n;p(1)=1\}$
+        
+        \item Let $n\geq 3$ and $i,j\in J_n$. Find a one-to-one and onto function $f:\{p(x)\neq j$ for $x\neq i\}\rightarrow S_{n-1}$.
+    \end{enumerate}
+ \end{problem}
+
+\begin{solution}
+    
+\end{solution}
+
+\pagebreak
+%-----------------------------------------------------------------------------------------------------------------------%
+
+\begin{problem}[B2]
+    \begin{enumerate}[a)]
+        \item Let A be an $n\times n$ invertible matrix. Prove that if the entries $A$ and $A^{-1}$ are integer numbers then $det(A)\in\{1,-1\}$.
+        \item Let $L:\mathbb{R}^3\rightarrow\mathbb{R}^3$ be a linear transformation that rotates $\pi/2$ radians the plane $\{(x,y,z);z=0\}$ and satisfies $L(0,0,1)=(0,0,5)$. Let A be the matrix of L with respect to the canonical basis. Prove that $det(A) > 0$. What if $\pi/2$ is replaced by an angle $\theta\geq[0,\pi/2]$ and 5 by a nonzero real number $\alpha$?
+    \end{enumerate}
+\end{problem}
+\begin{solution}
+    
+\end{solution}
+\pagebreak
+%-----------------------------------------------------------------------------------------------------------------------%
+
+\begin{problem}[B3]
+    Let A be an invertible matrix.
+    \begin{enumerate}[a)]
+        \item Use Cramer's rule to prove that $B=(b_{ij}) = A^{-1}$ then 
+        $$
+        b_{i1} = \frac{C_{i1}}{det(A)}
+        $$
+        where $C_{i1}$ is the matrix resulting from replacing the i-th column of A by the vector $(1,0,\dots,0)$.
+        \item State the generalization of part a for $b_{ij}$.
+    \end{enumerate}
+\end{problem}
+\begin{solution}
+    
+\end{solution}
+
+\pagebreak
+%-----------------------------------------------------------------------------------------------------------------------%
+
+\begin{problem}[B4]
+    \begin{enumerate}[a)]
+        \item Let A be an $n\times n$ matrix. Suppose there exists an invertible matrix P such that $P^{-1}AP$ is a triangular matrix $(t_{ij})$. Prove that $\lim_{k\rightarrow+\infty}(det(A))^k = 0$ if $|t_{11}\cdot t_{22}\cdots t_{nn}|<1$.
+        \item State a sufficient condition for $\lim_{k\rightarrow\infty}(det(A))^k = +\infty$
+    \end{enumerate}
+\end{problem}
+\begin{solution}
+    
+\end{solution}
+\pagebreak
+%-----------------------------------------------------------------------------------------------------------------------%
+
+\begin{problem}[B5]
+    \begin{enumerate}[a)]
+        \item Construct a function $f:[0,\pi]\rightarrow M_{2\times2}$ (the vector space of $2\times2$ matrices) such that $f(0)=I,f(\pi)=-I$ and $det(f(t))>0$ for all $t\in[0,\pi]$. Hint: Consider rotations.
+        \item Let 
+        $$
+        A_k=\begin{bmatrix}
+        f_k & g_k \\
+        u_k & v_k
+        \end{bmatrix}
+        $$
+        define a sequence of $2\times 2$ matrices. Prove that if $\lim_{k\rightarrow\infty}f_k=\lim_{k\rightarrow\infty}g_k=\lim_{k\rightarrow\infty}u_k=\lim_{k\rightarrow\infty}v_k=0$ then $\lim_{k\rightarrow\infty}det(A_k)=0$
+        \item State the generalization of part b to $n\times n$ matrices.
+    \end{enumerate}
+\end{problem}
+\begin{solution}
+    
+\end{solution}
+
+\end{document}
